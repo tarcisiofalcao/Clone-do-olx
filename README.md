@@ -10,3 +10,9 @@ Etapas:
     - Configurando Router;
         - Instalando biblioteca react-router-dom;
         - Criando paginas de teste (home, about). 
+
+ - Estruturando o Template da pagina.
+    - Criando arquivos mainComponents, Header e Footer;
+    - Criando App.css;
+    - Criando estrutura do Header;
+        - Estruturando o menu.
