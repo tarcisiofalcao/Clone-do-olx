@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const HeaderArea = styled.div`
     height:60px;
     border-bottom:1px solid #ccc;
+    background-color:#fff;
 
     .container{
         height:100%;
@@ -38,6 +39,18 @@ export const HeaderArea = styled.div`
                 li{
                     margin-left:40px;
 
+                    .btn-logout{
+                        border:none;
+                        background-color:#fff;
+                        color:#222;
+                        font-size: 16px;
+                        cursor:pointer;
+                        outline:none;
+
+                        &:hover{
+                            color:#999;
+                        }
+                    }
                     a{
                         color:#222;
                         font-size: 16px;
